@@ -1,5 +1,5 @@
 #!/bin/bash
-# Autor: Frank Tom
+# Autor: Ltomxd
 
 if [ $# -eq 4 ]; then
     startPort=$(echo $1 | tr '-' ' ' | awk '{print $1}')
